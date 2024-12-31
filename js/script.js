@@ -28,7 +28,7 @@ function chechResult(computerChoice, playerChoice) {
 btnRock.addEventListener('click', event => {
 	playerChoice = 'rock'
 	computerPlay()
-	result.innerHTML = `<h6>You choce rock - Computer chose ${computerChoice}</h6>`
+	result.innerHTML = `<h6>You chose rock - Computer chose ${computerChoice}</h6>`
 	result.innerHTML += `<h4>          ${chechResult(
 		computerChoice,
 		playerChoice
@@ -38,7 +38,7 @@ btnRock.addEventListener('click', event => {
 btnPaper.addEventListener('click', event => {
 	playerChoice = 'paper'
 	computerPlay()
-	result.innerHTML = `<h6>You choce paper - Computer chose ${computerChoice}</h6>`
+	result.innerHTML = `<h6>You chose paper - Computer chose ${computerChoice}</h6>`
 	result.innerHTML += `<h4>          ${chechResult(
 		computerChoice,
 		playerChoice
@@ -48,9 +48,10 @@ btnPaper.addEventListener('click', event => {
 btnScissors.addEventListener('click', event => {
 	playerChoice = 'scissors'
 	computerPlay()
-	result.innerHTML = `<h6>You choce scissors - Computer chose ${computerChoice}</h5>`
+	result.innerHTML = `<h6>You chose scissors - Computer chose ${computerChoice}</h5>`
 	result.innerHTML += `<h4>          ${chechResult(
 		computerChoice,
+
 		playerChoice
 	)}</h4>`
 })

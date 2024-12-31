@@ -28,16 +28,8 @@ body {
 	background-color: transparent;
 }
 
-.img1 {
-	background-color: transparent;
-	overflow: hidden;
-	border-radius: 50%;
-}
-.img2 {
-	background-color: transparent;
-	overflow: hidden;
-	border-radius: 50%;
-}
+.img1,
+.img2,
 .img3 {
 	background-color: transparent;
 	overflow: hidden;
